@@ -16,7 +16,17 @@ https://ke.qq.com/webcourse/index.html#cid=3169971&term_id=103296764&taid=109206
 
 ![](https://img2020.cnblogs.com/blog/740516/202102/740516-20210214214110358-958407365.png)
 
+## zsh
 
 ```sh
+# The default interactive shell is now zsh.
+# To update your account to use zsh, please run `chsh -s /bin/zsh`.
+# For more details, please visit https://support.apple.com/kb/HT208050.
+mbp:default-app xgqfrms$
+
+
+$ chsh -s /bin/zsh
 
 ```
+
+[https://support.apple.com/kb/HT208050](https://support.apple.com/kb/HT208050)
