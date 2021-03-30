@@ -21,11 +21,14 @@ $ vue create -p dcloudio/uni-preset-vue default-ts-app
 ```
 
 ```sh
-$ cd test-app && yarn
+# $ cd test-nvue-app && yarn
 
+# h5
+$ yarn serve
+$ yarn build
 
+# app
 $ yarn dev:app-plus
-
 $ yarn build:app-plus
 
 ```
