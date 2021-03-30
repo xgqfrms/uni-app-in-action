@@ -1,7 +1,6 @@
 # uni-app-in-action
 
 > uni-app 实战
-> 
 ## cli
 
 ```sh
@@ -12,11 +11,9 @@ $ vue -V
 # @vue/cli 4.5.6
 $ vue --version
 # @vue/cli 4.5.6
-$ vue -v
-# ???
 
+$ vue create -p dcloudio/uni-preset-vue test-nvue-app
 $ vue create -p dcloudio/uni-preset-vue test-app
-# hello uni-app ???
 
 $ vue create -p dcloudio/uni-preset-vue default-app
 $ vue create -p dcloudio/uni-preset-vue default-ts-app
@@ -24,11 +21,19 @@ $ vue create -p dcloudio/uni-preset-vue default-ts-app
 ```
 
 ```sh
-$ cd test-app && yarn serve
+$ cd test-app && yarn
+
+
+$ yarn dev:app-plus
+
+$ yarn build:app-plus
 
 ```
 
 https://uniapp.dcloud.io/quickstart-cli
 
 https://github.com/dcloudio/hello-uniapp
+
+
+## vscode
 
