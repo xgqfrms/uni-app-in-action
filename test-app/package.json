@@ -14,7 +14,7 @@
     "info": "node node_modules/@dcloudio/vue-cli-plugin-uni/commands/info.js",
     "test:android": "cross-env UNI_PLATFORM=app-plus UNI_OS_NAME=android jest -i",
     "test:h5": "cross-env UNI_PLATFORM=h5 jest -i",
-    "test:ios": "cross-env UNI_PLATFORM=app-plus UNI_OS_NAME=ios jest -i",
+    "test:ios": "cross-env UNI_PLATFORM=app-plus UNI_OS_NAME=ios jest -i"
   },
   "dependencies": {
     "@dcloudio/uni-app-plus": "^2.0.0-30720210122002",
