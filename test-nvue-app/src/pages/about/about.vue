@@ -2,8 +2,9 @@
 	<view class="about">
 		<view class="content">
 			<view class="qrcode">
-				<image src="https://img.cdn.aliyun.dcloud.net.cn/guide/uniapp/app_download.png" @longtap="save"></image>
-				<text class="tip">扫码体验uni-app</text>
+				<!-- <image src="https://img.cdn.aliyun.dcloud.net.cn/guide/uniapp/app_download.png" @longtap="save"></image> -->
+				<image src="https://cdn.xgqfrms.xyz/logo/icon.png" @longtap="save"></image>
+				<text class="tip">扫码体验 uni-app</text>
 			</view>
 			<view class="desc">
 				<text class="code">uni-app</text>
