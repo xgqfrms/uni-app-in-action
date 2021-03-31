@@ -1,7 +1,7 @@
 // 企业微信， jira robot
 
 const wxRobot = () => {
-  const url = `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=555a887d-c247-4808-a850-22440c5b25a0`;
+  const url = `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=555a887d-c247-4808-a850-22440cxxxxx`;
   const fetchPOST = (url, obj) => {
     return fetch(
         url,
@@ -22,7 +22,8 @@ const wxRobot = () => {
     ).catch(err => console.log(`fetch error`, err));
   };
   // loop
-  const trs = [...document.querySelector('[class="issue-table"]')?.lastElementChild?.children] ?? [];
+  // const trs = [...document.querySelector('[class="issue-table"]')?.lastElementChild?.children] ?? [];
+  const trs = [...(document.querySelector('[class="issue-table"]') ?? [])]?.lastElementChild?.children ?? [];
   for (const tr of trs) {
     const link = tr?.firstElementChild?.firstElementChild ?? '';
     const text = tr?.firstElementChild?.firstElementChild?.dataset?.issueKey ?? '';
