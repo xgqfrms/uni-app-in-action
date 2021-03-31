@@ -4,10 +4,10 @@
 			<view class="qrcode">
 				<!-- <image src="https://img.cdn.aliyun.dcloud.net.cn/guide/uniapp/app_download.png" @longtap="save"></image> -->
 				<image src="https://cdn.xgqfrms.xyz/logo/icon.png" @longtap="save"></image>
-				<text class="tip">扫码体验 uni-app</text>
+				<text class="tip">扫码体验 uni-app </text>
 			</view>
 			<view class="desc">
-				<text class="code">uni-app</text>
+				<text class="code">shit </text>
 				是一个使用 <text class="code">Vue.js</text> 开发跨平台应用的前端框架。
 			</view>
 			<view class="source">
